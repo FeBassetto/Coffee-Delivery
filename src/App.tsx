@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { Router } from './Router'
 import { GlobalStyle } from './styles/global'
