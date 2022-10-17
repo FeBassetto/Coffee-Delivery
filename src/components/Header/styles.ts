@@ -34,13 +34,12 @@ interface ButtonColors {
 
 export const StyledButton = styled.button<ButtonColors>`
   padding: 8px;
+
   font-size: 14px;
 
   color: ${(props) => props.theme[STATUS_COLOR[props.statusColor].color]};
   background: ${(props) =>
     props.theme[STATUS_COLOR[props.statusColor].backgroundColor]};
-
-  font-family: Roboto, sans-serif;
 
   border-radius: 6px;
 

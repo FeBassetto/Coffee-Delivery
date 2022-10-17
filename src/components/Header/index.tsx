@@ -14,13 +14,13 @@ export function Header() {
       </NavLink>
 
       <div>
-        <StyledButton statusColor="purple">
+        <StyledButton statusColor="purple" className="title-R">
           <MapPin weight="fill" />
           <span>Botucatu, SP</span>
         </StyledButton>
 
         <NavLink to="/checkout" title="checkout">
-          <StyledButton statusColor="yellow">
+          <StyledButton statusColor="yellow" className="title-R">
             <ShoppingCart weight="fill" />
             {cartItemsCount > 0 && <CartCount>{cartItemsCount}</CartCount>}
           </StyledButton>

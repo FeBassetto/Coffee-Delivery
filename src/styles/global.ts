@@ -21,5 +21,25 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
         font-size: 1rem;
-    }
+  }
+
+  .title-EX {
+    font-family: 'Baloo 2';
+    font-weight: 800;
+  }
+
+  .title-B {
+    font-family: 'Baloo 2';
+    font-weight: 700;
+  }
+
+  .subtitle-B{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+  }
+
+  .subtitle-R{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+  }
 `
