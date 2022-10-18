@@ -1,6 +1,6 @@
 import { CartCount, HeaderContainer, StyledButton } from './styles'
 import { NavLink } from 'react-router-dom'
-import headerLogo from '../../assets/headerLogo.svg'
+import headerLogo from '../../assets/common/headerLogo.svg'
 import { MapPin, ShoppingCart } from 'phosphor-react'
 import { useState } from 'react'
 

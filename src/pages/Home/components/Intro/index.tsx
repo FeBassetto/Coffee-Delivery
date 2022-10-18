@@ -1,7 +1,7 @@
 import { ReactNode } from 'react'
 import { IntroContainer, IntroTextInformations } from './styles'
 import { ShoppingCart, Package, Timer, Coffee } from 'phosphor-react'
-import IntroImage from '../../../../assets/introImage.svg'
+import IntroImage from '../../../../assets/common/introImage.svg'
 import {
   IconizedInformations,
   IconizedInformationsProps,
