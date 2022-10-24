@@ -47,7 +47,7 @@ export function Checkout() {
   function handleFinishCheckout(data: NewCycleFormData) {
     console.log(data)
     reset()
-    navigate('/completed-order')
+    navigate('completed')
   }
 
   return (
