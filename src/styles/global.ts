@@ -10,6 +10,16 @@ export const GlobalStyle = createGlobalStyle`
     transition: all 0.5s;
   }
 
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  }
+
+  input[type=number] {
+  -moz-appearance: textfield;
+  }
+
   :focus {
     outline: 0;
   }
@@ -17,6 +27,8 @@ export const GlobalStyle = createGlobalStyle`
   body {
     background: ${(props) => props.theme.background};
     -webkit-font-smoothing: antialiased;
+
+    color: ${(props) => props.theme['base-text']};
   }
 
   body, input, textarea, button{

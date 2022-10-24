@@ -19,7 +19,7 @@ export function CoffeeBox(props: CoffeeBoxProps) {
 
       <div className="coffeeType">
         {props.types.map((type) => (
-          <h3 className="subtitle-B" key={props.name}>
+          <h3 className="subtitle-B" key={props.name + Math.random() * 100}>
             {type}
           </h3>
         ))}
